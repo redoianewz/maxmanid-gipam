@@ -41,7 +41,7 @@
                         </button>
                         <div class="collapse navbar-collapse justify-content-center" id="navbarNav"> 
                             <ul class="navbar-nav"> 
-                                <li class="nav-item"><a href="index.php" class="nav-link">Home</a></li>
+                                <li class="nav-item"><a href="index.php" class="nav-link">Accueil</a></li>
                                 <li class="nav-item"><a href="aboutus.php" class="nav-link">À Propos</a></li>
                                 <li class="nav-item dropdown dropdown-with-icon-style02">
                                     <a  href="demo-it-business-services.html" class="nav-link">Info & Événements</a>
