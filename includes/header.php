@@ -115,14 +115,14 @@ if (strpos($requestUri, '/ar') !== false || strpos($requestUri, '/en') !== false
                     </button>
                     <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
                         <ul class="navbar-nav">
-                            <li class="nav-item"><a href="index.php" class="nav-link">home</a></li>
+                            <li class="nav-item"><a href="index.php" class="nav-link"><?= lg_('Accueil') ?></a></li>
                             <li class="nav-item"><a href="<?= getLanguageURL('aboutus.php') ?>" class="nav-link"><?= lg_('À Propos') ?></a></li>
                             <li class="nav-item dropdown dropdown-with-icon-style02">
                                 <a href="demo-it-business-services.html" class="nav-link"><?= lg_('Info & Événements') ?></a>
                                 <i class="fa-solid fa-angle-down dropdown-toggle" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false"></i>
                                 <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                                     <li><a href="https://www.rechange-maroc.com" target="_blank"><?= lg_('Rechange-maroc.ma') ?></a></li>
-                                    <li><a href="<?= getLanguageURL('news.php') ?>') ?>"><?= lg_('Actualités Gipam') ?></a></li>
+                                    <li><a href="<?= getLanguageURL('news.php')?>"><?= lg_('Actualités Gipam') ?></a></li>
                                 </ul>
                             </li>
                             <li class="nav-item"><a href="<?= getLanguageURL('membres.php') ?>" class="nav-link"><?= lg_('Membres') ?></a></li>
